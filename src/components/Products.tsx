@@ -10,14 +10,14 @@ const Products = () => {
           size: "205/55 R16",
           price: "45,000 ₸",
           image:
-            "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=300&h=300&fit=crop",
+            "https://images.unsplash.com/photo-1574204705991-1ad6dc6c30c4?w=300&h=300&fit=crop&q=80",
         },
         {
           name: "Continental Premium Contact",
           size: "225/45 R17",
           price: "52,000 ₸",
           image:
-            "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=300&h=300&fit=crop",
+            "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=300&h=300&fit=crop&q=80",
         },
       ],
     },
@@ -29,14 +29,14 @@ const Products = () => {
           size: "195/65 R15",
           price: "38,000 ₸",
           image:
-            "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=300&h=300&fit=crop",
+            "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=300&fit=crop&q=80",
         },
         {
           name: "Bridgestone Blizzak",
           size: "215/60 R16",
           price: "42,000 ₸",
           image:
-            "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=300&h=300&fit=crop",
+            "https://images.unsplash.com/photo-1574204705991-1ad6dc6c30c4?w=300&h=300&fit=crop&q=80",
         },
       ],
     },
@@ -48,14 +48,14 @@ const Products = () => {
           size: "5x114.3",
           price: "25,000 ₸",
           image:
-            "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=300&h=300&fit=crop",
+            "https://images.unsplash.com/photo-1600298881974-6be191ceeda1?w=300&h=300&fit=crop&q=80",
         },
         {
           name: "Кованые диски R17",
           size: "5x120",
           price: "35,000 ₸",
           image:
-            "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=300&h=300&fit=crop&auto=format&q=80",
+            "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=300&fit=crop&q=80",
         },
       ],
     },

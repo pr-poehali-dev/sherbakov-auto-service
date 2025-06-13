@@ -70,7 +70,7 @@ const About = () => {
 
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1632823471565-1246afaa4108?w=600&h=400&fit=crop"
+              src="https://images.unsplash.com/photo-1590736969955-71cc94901144?w=600&h=400&fit=crop&q=80"
               alt="Наш автосервис"
               className="rounded-lg shadow-lg w-full h-96 object-cover"
             />

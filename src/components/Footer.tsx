@@ -84,11 +84,8 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center">
-          <p className="text-gray-400">
-            © 2024 АвтоСервис Алматы. Все права защищены.
-          </p>
-          <p className="text-gray-500 text-sm mt-2">
-            Создатель сайта: Муртазин Габбас Уралович
+          <p className="text-2xl font-bold text-orange-400 uppercase tracking-wide">
+            СОЗДАЛ САЙТ МУРТАЗИН ГАББАС УРАЛОВИЧ
           </p>
         </div>
       </div>

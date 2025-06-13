@@ -69,16 +69,16 @@ const Services = () => {
                 <img
                   src={
                     index === 0
-                      ? "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop" // Замена шин
+                      ? "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?w=400&h=300&fit=crop&q=80" // Замена шин
                       : index === 1
-                        ? "https://images.unsplash.com/photo-1486754735734-325b5831c3ad?w=400&h=300&fit=crop" // Ремонт автомобилей
+                        ? "https://images.unsplash.com/photo-1581540222194-0def2dda95b8?w=400&h=300&fit=crop&q=80" // Ремонт автомобилей
                         : index === 2
-                          ? "https://images.unsplash.com/photo-1632823471565-1246afaa4108?w=400&h=300&fit=crop" // ТО
+                          ? "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=400&h=300&fit=crop&q=80" // ТО
                           : index === 3
-                            ? "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=400&h=300&fit=crop" // Диагностика
+                            ? "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=400&h=300&fit=crop&q=80" // Диагностика
                             : index === 4
-                              ? "https://images.unsplash.com/photo-1494905998402-395d579af36f?w=400&h=300&fit=crop" // Электрика
-                              : "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=400&h=300&fit=crop" // Кузовной ремонт
+                              ? "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=400&h=300&fit=crop&q=80" // Электрика
+                              : "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=400&h=300&fit=crop&q=80" // Кузовной ремонт
                   }
                   alt={service.title}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
