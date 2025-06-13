@@ -17,7 +17,7 @@ const Products = () => {
           size: "225/45 R17",
           price: "52,000 ₸",
           image:
-            "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=300&h=300&fit=crop",
+            "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=300&h=300&fit=crop",
         },
       ],
     },
@@ -29,7 +29,7 @@ const Products = () => {
           size: "195/65 R15",
           price: "38,000 ₸",
           image:
-            "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=300&h=300&fit=crop",
+            "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=300&h=300&fit=crop",
         },
         {
           name: "Bridgestone Blizzak",
@@ -55,7 +55,7 @@ const Products = () => {
           size: "5x120",
           price: "35,000 ₸",
           image:
-            "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=300&h=300&fit=crop",
+            "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=300&h=300&fit=crop&auto=format&q=80",
         },
       ],
     },

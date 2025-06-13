@@ -63,28 +63,49 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow"
+              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
             >
-              <div className="flex items-center mb-4">
-                <div className="bg-orange-100 p-3 rounded-lg mr-4">
-                  <Icon
-                    name={service.icon as any}
-                    className="text-orange-500"
-                    size={24}
-                  />
-                </div>
-                <h3 className="text-xl font-semibold text-gray-800">
-                  {service.title}
-                </h3>
+              <div className="h-48 overflow-hidden">
+                <img
+                  src={
+                    index === 0
+                      ? "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop" // Замена шин
+                      : index === 1
+                        ? "https://images.unsplash.com/photo-1486754735734-325b5831c3ad?w=400&h=300&fit=crop" // Ремонт автомобилей
+                        : index === 2
+                          ? "https://images.unsplash.com/photo-1632823471565-1246afaa4108?w=400&h=300&fit=crop" // ТО
+                          : index === 3
+                            ? "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=400&h=300&fit=crop" // Диагностика
+                            : index === 4
+                              ? "https://images.unsplash.com/photo-1494905998402-395d579af36f?w=400&h=300&fit=crop" // Электрика
+                              : "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=400&h=300&fit=crop" // Кузовной ремонт
+                  }
+                  alt={service.title}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
               </div>
-              <p className="text-gray-600 mb-4">{service.description}</p>
-              <div className="flex justify-between items-center">
-                <span className="text-2xl font-bold text-orange-500">
-                  {service.price}
-                </span>
-                <button className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-lg transition-colors">
-                  Заказать
-                </button>
+              <div className="p-6">
+                <div className="flex items-center mb-4">
+                  <div className="bg-orange-100 p-3 rounded-lg mr-4">
+                    <Icon
+                      name={service.icon as any}
+                      className="text-orange-500"
+                      size={24}
+                    />
+                  </div>
+                  <h3 className="text-xl font-semibold text-gray-800">
+                    {service.title}
+                  </h3>
+                </div>
+                <p className="text-gray-600 mb-4">{service.description}</p>
+                <div className="flex justify-between items-center">
+                  <span className="text-2xl font-bold text-orange-500">
+                    {service.price}
+                  </span>
+                  <button className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-lg transition-colors">
+                    Заказать
+                  </button>
+                </div>
               </div>
             </div>
           ))}

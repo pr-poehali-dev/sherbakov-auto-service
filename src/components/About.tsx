@@ -71,7 +71,7 @@ const About = () => {
           <div className="relative">
             <img
               src="https://images.unsplash.com/photo-1632823471565-1246afaa4108?w=600&h=400&fit=crop"
-              alt="Автосервис изнутри"
+              alt="Наш автосервис"
               className="rounded-lg shadow-lg w-full h-96 object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent rounded-lg"></div>
